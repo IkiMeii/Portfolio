@@ -192,13 +192,13 @@ button {
   font-weight: bold;
   letter-spacing: 1px;
   border: none;
+
 }
 
 button:hover {
   border: 1px solid #444141;
-  background-color:white;
+  background-color:rgb(97, 95, 95);
   animation: slidernbw 5s linear infinite;
-  color: #000;
 }
 
 .Bouttons
@@ -207,25 +207,12 @@ button:hover {
   text-align: center;
 }
 
-.B-left {
-  text-decoration: none;
-}
-
-
-.Section
+.B-right, .B-Left
 {
-
-      text-align: center;
-      border: 1px solid rgb(168, 164, 164); 
-      margin-top: 1em;
-      margin-left: 3em;
-      margin-right: 3em;
-      margin-bottom: 0;
-      padding: 8px 12px;
-      background: white;
-      color: black;
-    
+    color: white;
 }
+
+
 
 
 .Titreh2
@@ -238,6 +225,28 @@ button:hover {
     margin-right: 5em;
     padding: 8px 12px;
     background: rgba(250, 246, 246, 0.993);
+}
+
+.CommunSection {
+  text-align: center;
+  border: 1px solid rgb(168, 164, 164);
+  margin-top: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 0;
+  padding: 8px 12px;
+  background: white;
+  color: black;
+
+}
+
+.EndSection {
+  text-align: center;
+  margin-top: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 0;
+  padding: 8px 12px;
 }
 
 p
@@ -298,7 +307,7 @@ p
 
 /**************** SECTION VEILLE ****************/
 
-.TitreVeille
+.Titre
 {
     text-align: center;
     font-family: 'Lato';
@@ -324,19 +333,6 @@ p
     color: black;
 }
 
-.Veille
-{
-    text-align: center;
-      border: 1px solid rgb(168, 164, 164);
-      margin-top: 1em;
-      margin-left: 3em;
-      margin-right: 3em;
-      margin-bottom: 0;
-      padding: 8px 12px;
-      background: white;
-      color: black;
-
-}
 
 .Quésaco
 {
@@ -349,4 +345,14 @@ p
     padding: 8px 12px;
     background: white;
     color: black;
+}
+
+/**************** SECTION PARCOURS ****************/
+
+
+.indentation-list {
+  text-indent: 300px;
+  text-align: justify;
+  margin-left: 10px;
+  margin-right: 10px;
 }
