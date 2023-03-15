@@ -1,34 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,500,900');
-@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,500,900");
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 
 html {
   scroll-behavior: smooth;
 }
 
 /**************** MENU ****************/
-.menu 
-{
+.menu {
   background: White;
   width: 100%;
   height: 66px;
-  line-height: 66px ;
-  margin: 0; padding: 0 ;
-  border-bottom: 1px solid rgb(168, 164, 164); ;
+  line-height: 66px;
+  margin: 0;
+  padding: 0;
+  border-bottom: 1px solid rgb(168, 164, 164);
 }
 
-.m-left
-{
+.m-left {
   float: left;
 }
 
-.m-right
-{
+.m-right {
   float: right;
-  font-family: 'Lato';
+  font-family: "Lato";
 }
 
-.m-link
-{
+.m-link {
   text-decoration: none;
   color: black;
   text-transform: uppercase;
@@ -39,31 +36,25 @@ html {
   padding-bottom: 3px;
 }
 
-.m-link:hover
-{
-  border-bottom: 2px solid black;  
+.m-link:hover {
+  border-bottom: 2px solid black;
 }
 
-
-
-.inner
-{
+.inner {
   width: 80%;
   margin: auto;
 }
 
-.Logo 
-{
-  margin: 0; 
-  padding: 0 ;
+.Logo {
+  margin: 0;
+  padding: 0;
   text-transform: uppercase;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-size: 35px;
   letter-spacing: 1px;
 }
 
-.m-nav-toggle
-{
+.m-nav-toggle {
   width: 40px;
   height: 66px;
   display: none;
@@ -73,8 +64,9 @@ html {
   cursor: pointer;
 }
 
-span.m-toggle-icon, span.m-toggle-icon:before, span.m-toggle-icon:after
-{
+span.m-toggle-icon,
+span.m-toggle-icon:before,
+span.m-toggle-icon:after {
   content: "";
   display: block;
   width: 100%;
@@ -84,36 +76,35 @@ span.m-toggle-icon, span.m-toggle-icon:before, span.m-toggle-icon:after
   transition: all 0.3s ease-in-out;
 }
 
-span.m-toggle-icon:before {top : 10px;}
-span.m-toggle-icon:after {top: -14px;}
+span.m-toggle-icon:before {
+  top: 10px;
+}
+span.m-toggle-icon:after {
+  top: -14px;
+}
 
-.m-right.is-open 
-{
+.m-right.is-open {
   transform: translateX(0);
 }
 
-.m-nav-toggle.is-open span.m-toggle-icon
-{
-    background: transparent;
+.m-nav-toggle.is-open span.m-toggle-icon {
+  background: transparent;
 }
 
-.m-nav-toggle.is-open span.m-toggle-icon:before, .m-nav-toggle.is-open span.m-toggle-icon:after
-{
+.m-nav-toggle.is-open span.m-toggle-icon:before,
+.m-nav-toggle.is-open span.m-toggle-icon:after {
   transform-origin: center;
   transform: rotate(45deg);
   top: 0;
 }
 
-.m-nav-toggle.is-open span.m-toggle-icon:after
-{
+.m-nav-toggle.is-open span.m-toggle-icon:after {
   position: absolute;
   transform: rotate(-45deg);
 }
 
-
 @media only screen and (max-width: 1000px) {
-  .m-right
-  {
+  .m-right {
     position: absolute;
     top: 66px;
     right: 0;
@@ -126,12 +117,11 @@ span.m-toggle-icon:after {top: -14px;}
     transition: all 0.3s ease-in-out;
   }
 
-    .m-link:hover {
-      border-bottom: 2px solid rgba(97, 97, 97, 0.308);
-    }
+  .m-link:hover {
+    border-bottom: 2px solid rgba(97, 97, 97, 0.308);
+  }
 
-  .m-link
-  {
+  .m-link {
     display: block;
     text-align: center;
     padding: 0;
@@ -139,18 +129,14 @@ span.m-toggle-icon:after {top: -14px;}
     height: 70px;
   }
 
-  .m-nav-toggle
-  {
+  .m-nav-toggle {
     display: flex;
   }
-  
 }
-
 
 /**************** SECTION PROJETS ****************/
 
-body
-{
+body {
   background-color: rgba(0, 0, 0, 0.226);
   margin: 0;
   padding: 0;
@@ -163,22 +149,19 @@ body
   border: 1px solid rgb(168, 164, 164);
   margin-top: 3em;
   margin-left: 3em;
-  font-family: 'Lato';
+  font-family: "Lato";
   margin-bottom: 3em;
-  padding: 8px 12px ;
-  background :  rgba(241, 237, 237, 0.938);
+  padding: 8px 12px;
+  background: rgba(241, 237, 237, 0.938);
 }
 
-
-.nav-sommaire
-{
+.nav-sommaire {
   margin-left: 2px;
 }
 
-.SommaireP
-{
+.SommaireP {
   text-decoration: none;
-  color : black;
+  color: black;
 }
 
 button {
@@ -192,39 +175,33 @@ button {
   font-weight: bold;
   letter-spacing: 1px;
   border: none;
-
 }
 
 button:hover {
   border: 1px solid #444141;
-  background-color:rgb(97, 95, 95);
+  background-color: rgb(97, 95, 95);
   animation: slidernbw 5s linear infinite;
 }
 
-.Bouttons
-{
+.Bouttons {
   margin: 0 2em;
   text-align: center;
 }
 
-.B-right, .B-Left
-{
-    color: white;
+.B-right,
+.B-Left {
+  color: white;
 }
 
-
-
-
-.Titreh2
-{
+.Titreh2 {
   text-align: center;
-  font-family: 'Lato';
-    border: 1px solid rgb(168, 164, 164);
-    margin-top: 1em;
-    margin-left: 5em;
-    margin-right: 5em;
-    padding: 8px 12px;
-    background: rgba(250, 246, 246, 0.993);
+  font-family: "Lato";
+  border: 1px solid rgb(168, 164, 164);
+  margin-top: 1em;
+  margin-left: 5em;
+  margin-right: 5em;
+  padding: 8px 12px;
+  background: rgba(250, 246, 246, 0.993);
 }
 
 .CommunSection {
@@ -237,7 +214,6 @@ button:hover {
   padding: 8px 12px;
   background: white;
   color: black;
-
 }
 
 .EndSection {
@@ -249,110 +225,110 @@ button:hover {
   padding: 8px 12px;
 }
 
-p
-{
+p {
   margin-left: 50px;
-  margin-right: 50px ;
+  margin-right: 50px;
   margin-top: 2em;
   text-align: center;
   text-justify: auto;
   text-size-adjust: auto;
-  
 }
 
-.Tiret
-{
-  color:black;
+.Tiret {
+  color: black;
   font-weight: 700;
-
 }
-
-
-
-
 
 @keyframes slidernbw {
- to {
-  background-position: 20vw;
- }
+  to {
+    background-position: 20vw;
+  }
 }
 
-
-
-@media only screen and (max-width: 1000px) 
-{
-  .Titreh2
-  {
+@media only screen and (max-width: 1000px) {
+  .Titreh2 {
     text-align: center;
-      font-family: 'Lato';
-      border: 1px solid rgb(168, 164, 164);
-      margin-top: 1em;
-      margin-left: 1em;
-      margin-right: 1em;
-      padding: 8px 12px;
-      background: rgba(250, 246, 246, 0.993);
+    font-family: "Lato";
+    border: 1px solid rgb(168, 164, 164);
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 8px 12px;
+    background: rgba(250, 246, 246, 0.993);
   }
 
-    p {
-      margin-left: 20px;
-      margin-right: 20px;
-      margin-top: 2em;
-      text-align: center;
-      text-justify: auto;
-    }
-
+  p {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2em;
+    text-align: center;
+    text-justify: auto;
+  }
 }
-
-
 
 /**************** SECTION VEILLE ****************/
 
-.Titre
-{
-    text-align: center;
-    font-family: 'Lato';
-    font-weight: 900;
-    border: 1px solid rgb(168, 164, 164);
-    margin-top: 1em;
-    margin-left: 2em;
-    margin-right: 2em;
-    padding: 8px 12px;
-    background: rgba(250, 246, 246, 0.993);
+.Titre {
+  text-align: center;
+  font-family: "Lato";
+  font-weight: 900;
+  border: 1px solid rgb(168, 164, 164);
+  margin-top: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 8px 12px;
+  background: rgba(250, 246, 246, 0.993);
 }
 
-.Cadre
-{
+.Cadre {
   text-align: center;
-    border: 1px solid rgb(168, 164, 164);
-    margin-top: 1em;
-    margin-left: 3em;
-    margin-right: 3em;
-    margin-bottom: 0;
-    padding: 8px 12px;
-    background: white;
-    color: black;
+  border: 1px solid rgb(168, 164, 164);
+  margin-top: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 0;
+  padding: 8px 12px;
+  background: white;
+  color: black;
 }
 
-
-.Quésaco
-{
+.Quésaco {
   text-align: center;
-    border: 1px solid rgb(168, 164, 164);
-    margin-top: 1em;
-    margin-left: 3em;
-    margin-right: 3em;
-    margin-bottom: 0;
-    padding: 8px 12px;
-    background: white;
-    color: black;
+  border: 1px solid rgb(168, 164, 164);
+  margin-top: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+  margin-bottom: 0;
+  padding: 8px 12px;
+  background: white;
+  color: black;
 }
 
 /**************** SECTION PARCOURS ****************/
 
+div.container {
+  text-align: center;
+}
 
-.indentation-list {
-  text-indent: 300px;
+ul.indentation-list {
+  display: inline-block;
+  text-align: left;
+}
+
+.line {
+  height: 5px;
+  width: 10%;
+  margin: 0 auto;
+  background: rgb(168, 164, 164);
+}
+
+.PresStage {
   text-align: justify;
-  margin-left: 10px;
-  margin-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .ImgStage {
+    height: 110px;
+    width: 310px;
+  }
 }
