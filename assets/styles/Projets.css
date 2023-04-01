@@ -422,3 +422,55 @@ ul.indentation-list {
   width: auto;
   height: 100px;
 }
+
+.image {
+  width: 700px;
+  height: 400px;
+}
+
+.img {
+  width: 700px;
+  height: 350px;
+}
+
+.img2 {
+  width: 700px;
+  height: 200px;
+}
+
+.img3 {
+  width: 700px;
+  height: 250px;
+}
+
+.img4 {
+  width: 700px;
+  height: 600px;
+}
+
+@media only screen and (max-width: 600px) {
+  .img2 {
+    width: 300px;
+    height: 100px;
+  }
+
+  .image {
+    width: 300px;
+    height: 200px;
+  }
+
+  .img {
+    width: 300px;
+    height: 150px;
+  }
+
+  .img3 {
+    width: 300px;
+    height: 150px;
+  }
+
+  .img4 {
+    width: 300px;
+    height: 200px;
+  }
+}
