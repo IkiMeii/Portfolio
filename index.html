@@ -2,60 +2,72 @@
 <html lang="en" class="is-smooth-scroll-compatible is-loaded 
 is-ready has-scroll-init has-scroll-smooth">
 	<head>
-		<meta charset="UTF-8" />
-		<title> Portfolio Katia Berteaux </title>
+		<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/styles/Projets.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <title> Portfolio Katia Berteaux </title>
 	</head>
 	
-	<link rel="stylesheet" href="./assets/lib/locomotive-scroll.min.css" />
-	<link rel="stylesheet" href="./assets/styles/Style.css" />
 
+	
+
+	<header role="header">
+        <nav class="menu" role="navigation">
+            <div class="inner">
+                <div class="m-left">
+                    <h1 class="Logo">Portfolio</h1>
+                </div>
+                <div class="m-right">
+                    <a href="index.html" class="m-link">Accueil</a>
+                    <a href="Stages.html" class="m-link">Mes Stages</a>
+                    <a href="Cv.html" class="m-link">Mon Cv</a>
+                    <a href="Projets.html" class="m-link">Projets</a>
+                    <a href="Veille.html" class="m-link">Veille</a>
+                </div>
+            </div>
+            <div class="m-nav-toggle">
+                <span class="m-toggle-icon"></span>
+            </div>
+        </nav>
+    </header>
 	<body>
-		<div data-scroll-container>
-		<header data-scroll>
-				<div class="links">
-					<a href="#projects" data-scroll-to>Projets</a> <!-- # permet de rapporter à la section demandée, ici "Projets" -->
-
-					<a href="mailto:berteaux.katia.2003@gmail.com">Contact</a>  <!-- "mailto" permet d'envoyer un mail directement à l'adresse renseignée à la suite -->
-				</div>
-				<div class="wrapper">  <!-- Pour gérer la 3D-->
-					<div data-scroll class="appear" id="h1-wrapper">  <!-- Pour gérer l'apparition -->
-					<h1 data-scroll data-scroll-speed="4">Berteaux Katia</h1>
-					</div>
-				</div>
-				<div data-scroll data-scroll-repeat ="true" class="wrapper" id="color">  
-					<div data-scroll class="appear" id="h2-1">  
-					<h2>Étudiante</h2>
-					</div>
-				</div>
-				<div class="wrapper">  
-					<div data-scroll class="appear" id="h2-2">  
-					<h2>BTS SIO <br>(2éme année)</h2>
-					</div>
-				</div>
-			</header>
-			
-			<section class="about" id="about">
-				<div class="img1-wrapper">
-				<div class="img img1"></div> <!-- "img" pour tout ce qui est commun aux images et "img1" pour tout ce qui est spécifique à cette image -->
-				</div>
-				<div class="h2-wrapper">
-					<h2>À propos</h2>
-				</div>
-				<p>
+			<section class="about" id="about" style="text-align : center;">
+				<br>
+				<FONT size="10pt" class="title">
+					<big>
+					<span>À</span>
+					<span>P</span>
+					<span>R</span>
+					<span>O</span>
+					<span>P</span>
+					<span>O</span>
+					<span>S</span>
+					</big>
+				</FONT>
+				<br><br>
+				<div style="text-align: center">
+       			<img src="assets/img/PhotoCV.PNG" />
+     	 		</div>
+				<br>
+				<FONT size="5pt"> 
 				Je suis une jeune fille sérieuse et autonome, je cherche également à être la plus rigoureuse
 				possible.<br> Je sais travailler en équipe, m'intéresse beaucoup aux nouvelles technologies et aux
 				questions qu'elles peuvent susciter.<br>Pour résumé, je suis curieuse, travailleuse et passionnée par
 				l'informatique.
-				</p>
+				</FONT>
+				<br><br>
 			</section>
-			
-			<div data-scroll class="line-wrapper">
-				<div class="line"></div>
+			<br><br>
+			<div   class="line-wrapper">
+				<div class="line" style="width: 70%;"></div>
 			</div>
-			
-			<section class="skills" id="skills">
-				<h2 class="title">
-					<h2 class="title">
+			<br><br>
+			<section class="skills" id="skills" style="text-align : center;">
+				<FONT size="10pt" class="title">
+					<big>
 					<span>C</span>
 					<span>O</span>
 					<span>M</span>
@@ -67,91 +79,76 @@ is-ready has-scroll-init has-scroll-smooth">
 					<span>C</span>
 					<span>E</span>
 					<span>S</span>
-				</h2>
-				<div class="wrapper">
-					<div class="h2-wrapper">
+					</big>
+				</FONT>
+				<br><br>
+				<div class="Langage" style="text-align : left;">
+					<FONT size="6pt"><big>Langages :</big></FONT>
+					<div class="row" style="text-align : center;">
+						<div   class="icons">
+							<tr>
+  								<td><img src="assets/img/Icon/HTML.png" /></td>
+  								<td><img src="assets/img/Icon/CSS.png" style="margin-left: 10px;" /></td>
+  								<td><img src="assets/img/Icon/PHP.png" style="margin-left: 10px;"/></td>
+  								<td><img src="assets/img/Icon/Mysql.png" style="margin-left: 10px;"/></td>
+								<td><img src="assets/img/Icon/JAVA.webp" style="margin-left: 10px;"/></td>
+							</tr> 
+						</div>
+					</div>
+				</div>
+						<!--	<div class="Langage" style="text-align : left;">
 					<h2>Langage</h2>
-						<div data-scroll class="appear">  
-							<p>HTML / CSS</p>
-						</div>
-						<div class="wrapper">  
-							<div data-scroll class="appear">  
-							<p>PHP / MySQL</p>
+					<div class="row" style="text-align : center;">
+						<div class="icons" style="text-align : center;">
+							<div>
+								<img src="assets/img/Icon/HTML.png"/>
 							</div>
-						</div>
-						<div class="wrapper">  
-							<div data-scroll class="appear">  
-							<p>JAVA</p>
+							<div>
+								<img src="assets/img/Icon/CSS.png"/>
 							</div>
+							<div>
+								<img src="assets/img/Icon/PHP.png"/>
+							</div>	
+							<div>
+								<img src="assets/img/Icon/Mysql.png"/>
+							</div>	
+							<div>
+								<img src="assets/img/Icon/JAVA.webp"/>
+							</div>	-->	
+								
+					<div class="outils" style="text-align : left;">
+					<FONT size="6pt"><big>Outils :</big></FONT>
+						<div class="row" style="text-align : center;">
+						<div   class="icons">
+							<tr>
+  								<td><img src="assets/img/Icon/Code Blocks.png" /></td>
+  								<td><img src="assets/img/Icon/Eclipse.svg" /></td>
+								<td><img src="assets/img/Icon/LINUX.png" /></td>
+							</tr> 
 						</div>
 					</div>
 				</div>
 				<div class="wrapper">
-					<div class="h2-wrapper">
-					<h2>Outils</h2>
-						<div data-scroll class="appear">  
-							<p>CodeBlocks</p>
-						</div>
+					<div class="h2-wrapper " style="text-align : left;">
+					<FONT size="6pt"><big>Scolaire :</big></FONT>
 						<div class="wrapper">  
-							<div data-scroll class="appear">  
-							<p>Eclipse</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="wrapper">
-					<div class="h2-wrapper">
-					<h2>Scolaire</h2>
-						<div class="wrapper">  
-							<div data-scroll class="appear">  
-							<p>MCD</p>
-							</div>
-						</div>
-						<div class="wrapper">  
-							<div data-scroll class="appear">  
-							<p>MLD</p>
-							</div>
-						</div>
-						<div class="wrapper">  
-							<div data-scroll class="appear">  
-							<p>DD</p>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="wrapper">
-					<div class="h2-wrapper">
-					<h2>Personnelles</h2>
-						<div class="wrapper">  
-							<div data-scroll class="appear">  
-							<p>Autonomie</p>
-							</div>
-						</div>
-						<div class="wrapper">  
-							<div data-scroll class="appear">  
-							<p>Adaptation</p>
-							</div>
-						</div>
-						<div class="wrapper">  
-							<div data-scroll class="appear">  
-							<p>Sérieux</p>
-							</div>
-						</div>
-						<div class="wrapper"> 
-							<div data-scroll class="appear">  
-							<p>Travail d'équipe</p>
+							<div   class="appear">  
+							<p><FONT size="5pt"><big>MCD</big>,<big> MLD</big>,<big> DD</big></FONT></p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
 			
-			<div data-scroll class="line-wrapper">
-				<div class="line"></div>
+			<br><br>
+			<div   class="line-wrapper">
+				<div class="line" style="width: 70%;"></div>
 			</div>
+			<br><br>
 			
-			<section class="passions" id="passions">
-				<h2 class="title">
+			<section class="passions" id="passions" style="text-align : center;">
+				<FONT size="10pt" class="title">
+					<big>
 					<span>I</span>
 					<span>N</span>
 					<span>T</span>
@@ -160,54 +157,85 @@ is-ready has-scroll-init has-scroll-smooth">
 					<span>Ê</span>
 					<span>T</span>
 					<span>S</span>
-				</h2>
+					</big>
+				</FONT>
+				<br><br>
 				<div class="wrapper"> 
-					<div data-scroll class="appear">  
-					<p>Mangas/Animes</p>
+					<div   class="appear">  
+						<FONT size="5pt" class="title">
+							<big>Mangas/Animes</big>
+						</FONT>
 					</div>
 				</div>
+				<br>
 				<div class="wrapper"> 
-					<div data-scroll class="appear">  
-					<p>Psychologie</p>
+					<div   class="appear">  
+						<FONT size="5pt" class="title">
+							<big>Psychologie</big>
+						</FONT>
 					</div>
 				</div>
+				<br>
 				<div class="wrapper"> 
-					<div data-scroll class="appear">  
-					<p>Droit</p>
+					<div   class="appear">  
+						<FONT size="5pt" class="title">
+							<big>Droit</big>
+						</FONT>
 					</div>
 				</div>
+				<br>
 				<div class="wrapper"> 
-					<div data-scroll class="appear">  
-					<p>Informatique</p>
+					<div   class="appear">  
+						<FONT size="5pt" class="title">
+							<big>Informatique</big>
+						</FONT>
 					</div>
 				</div>
+				<br>
 				<div class="wrapper"> 
-					<div data-scroll class="appear">  
-					<p>Jeux <br>(vidéo, société, réflexion...)</p>
+					<div   class="appear">  
+						<FONT size="5pt" class="title">
+							<big>Jeux <br>(vidéo, société, réflexion...)</big>
+						</FONT>
 					</div>
 				</div>
 			</section>
 			
-			<div data-scroll class="line-wrapper">
-				<div class="line"></div>
+			<br><br>
+			<div   class="line-wrapper">
+				<div class="line" style="width: 70%;"></div>
 			</div>
+			<br><br>
 			
 			<section>
-				<div class="MonCv" id="MonCv">
-				<div class="wrapper">
-					<div data-scroll class="appear">
-						<p>Vous êtes intéressé par mon profil ?</p>
+				<div class="MonCv" id="MonCv" style="text-align : center;">
+					<div class="wrapper">
+						<div   class="appear">
+							<FONT size="5pt" class="title">
+							<big>Vous êtes intéressé par mon profil ?</big>
+						</FONT>
+						</div>
+					</div>
+					<br>
+					<div class="wrapper">
+						<div   class="appear" id="l2" style="text-align : center;"></div>
+							<FONT size="5pt" class="title">
+								<big>Allez donc voir <a href="Cv.html" target="_blank"><FONT size="8pt" class="title" style="color: black;">mon cv</FONT></a> !</big>
+							</FONT>
+						</div>
 					</div>
 				</div>
-				<div class="wrapper">
-					<div data-scroll class="appear" id="l2">
-						<p>Allez donc voir <a href="Cv.html" target="_blank">mon cv</a> !</p>
-					</div>
-				</div>
-				</div>
+			</section>
+
+			<br><br>
+			<div   class="line-wrapper">
+				<div class="line" style="width: 70%;"></div>
+			</div>
+			<br><br>
 			
-			<section class="projects" id="projects">
-				<h2 class="title">
+			<section style="text-align : center;">
+				<FONT size="10pt" class="title">
+					<big>
 					<span>P</span>
 					<span>R</span>
 					<span>O</span>
@@ -215,36 +243,60 @@ is-ready has-scroll-init has-scroll-smooth">
 					<span>E</span>
 					<span>T</span>
 					<span>S</span>
-				</h2>
+					</big>
+				</FONT>
 				<div class="projects-container">
 					<div class="project" id="p1">
 						<img src="assets/img/projet2.jpeg" alt="project 1">
 						<div class="projects-infos">
-							<a href="Projets.html#P1">Festival</a>
+							<a href="Projets.html#P1" style="text-decoration: none ; color:aliceblue;">Festival</a>
 							<p>2021</p>
 						</div>
 					</div>
 				</div>
-				<!-- <div class="projects-container">
+				<div class="projects-container">
 					<div class="project" id="p2">
-						<img src="./assets/img/projet1.jpeg" alt="project 2">
+						<img src="./assets/img/Personnel.jpg" alt="project 2">
 						<div class="projects-infos">
-							<a href="Projets.html#Journal" target="_blank">Journal</a>
-							<p>2021</p>
+							<a href="Projets.html#P2" style="text-decoration: none ; color:aliceblue;" target="_blank">Personnel</a>
+							<p>2023</p>
 						</div>
 					</div>
-				</div> -->
+				</div>
+			<div class="projects-container">
+					<div class="project" id="p1">
+						<img src="assets/img/Parking.jpg" alt="project 1">
+						<div class="projects-infos">
+							<a href="Projets.html#P3" style="text-decoration: none ; color:aliceblue;">Parking</a>
+							<p>2023</p>
+						</div>
+					</div>
+				</div>
+			<div class="projects-container">
+					<div class="project" id="p2">
+						<img src="./assets/img/Kwark.jpg" alt="project 2">
+						<div class="projects-infos">
+							<a href="Projets.html#P4" style="text-decoration: none ; color:aliceblue;" target="_blank">Kwark Education</a>
+							<p>2023</p>
+						</div>
+					</div>
+				</div>
+				<div class="projects-container">
+					<div class="project" id="p1">
+						<img src="assets/img/Abeille.png" alt="project 1">
+						<div class="projects-infos">
+							<a href="Projets.html#P5" style="text-decoration: none ; color:aliceblue;">Abeille Assurances</a>
+							<p>2023</p>
+						</div>
+					</div>
+				</div>
 			</section>
 
 			<footer>
-<div class="line-wrapper">
-			<div class="line"></div>
-			</div>
+<section class="EndSection"></section>
 			</footer>
-			
+			<script src="assets/js/app.js"></script>
 		</div>
-		<script src="assets/lib/locomotive-scroll.min.js"></script>
-		<script src="assets/js/index.js"></script>
 	</body>
 </html>
 			

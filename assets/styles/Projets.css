@@ -145,7 +145,7 @@ body {
 
 .Sommaire {
   width: 15em;
-  height: 15em;
+  height: 20em;
   border: 1px solid rgb(168, 164, 164);
   margin-top: 3em;
   margin-left: 3em;
@@ -304,6 +304,13 @@ p {
   color: black;
 }
 
+@media only screen and (max-width: 800px) {
+  img {
+    height: auto;
+    width: 310px;
+  }
+}
+
 /**************** SECTION PARCOURS ****************/
 
 div.container {
@@ -331,4 +338,87 @@ ul.indentation-list {
     height: 110px;
     width: 310px;
   }
+}
+
+/**************** SECTION ACCUEIL ****************/
+.projects {
+  margin: 200px 0;
+}
+
+.projects-container {
+  margin-top: 100px;
+}
+
+.project {
+  position: relative;
+  width: 60vw;
+  max-width: 700px;
+  margin: 50px 5vw;
+}
+
+#p1 {
+  margin-left: 8vw;
+}
+
+#p2 {
+  margin: 0 6vw 0 auto;
+}
+
+/* #p3
+{
+	margin-left: 8vw;
+} */
+
+.project img {
+  transition: 0.4s ease-out;
+  width: 100%;
+}
+
+.project:hover img {
+  filter: brightness(20%);
+}
+
+.project:hover .projects-infos {
+  opacity: 1;
+  transform: translate(0, -50%);
+}
+
+.projects-infos {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50px, -50%);
+  margin-left: 8vw;
+  transition: 0.4s ease-out;
+  opacity: 0;
+}
+
+.projects-infos a {
+  font-size: calc(1rem + 3vw);
+}
+
+.projects-infos p {
+  font-size: 2rem;
+  margin-top: 1.5vw;
+  color: #fefeff;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+  margin-left: 0px;
+}
+
+.icons {
+  flex: 25%;
+  margin-top: 10px;
+}
+
+.icons img {
+  width: auto;
+  max-height: 70px;
+}
+
+.CB {
+  width: auto;
+  height: 100px;
 }

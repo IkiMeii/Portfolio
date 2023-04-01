@@ -10,40 +10,45 @@
 </head>
 
 <header role="header">
-    <nav class ="menu" role="navigation">
-        <div class="inner">
-            <div class="m-left">
-            <h1 class="Logo" >Portfolio</h1>
+<header role="header">
+        <nav class="menu" role="navigation">
+            <div class="inner">
+                <div class="m-left">
+                    <h1 class="Logo">Portfolio</h1>
+                </div>
+                <div class="m-right">
+                    <a href="index.html" class="m-link">Accueil</a>
+                    <a href="Stages.html" class="m-link">Mes Stages</a>
+                    <a href="Cv.html" class="m-link">Mon Cv</a>
+                    <a href="Projets.html" class="m-link">Projets</a>
+                    <a href="Veille.html" class="m-link">Veille</a>
+                </div>
             </div>
-        <div class="m-right">
-            <a href="index.html" class="m-link">Accueil</a>
-            <a href="Parcours.html" class="m-link">Mon parcours</a>
-            <a href="Cv.html" class="m-link">Mon Cv</a>
-            <a href="Projets.html" class="m-link">Projets</a>
-            <a href="Veille.html" class="m-link">Veille</a>
-        </div>
-        </div>
-        <div class="m-nav-toggle">
-            <span class="m-toggle-icon"></span>
-        </div>
-    </nav>
-</header>
+            <div class="m-nav-toggle">
+                <span class="m-toggle-icon"></span>
+            </div>
+        </nav>
+    </header>
 <body>
     <section>
         <div class ="Sommaire">
             <h1 class="TitreSommaire">Sommaire</h1>
             <ul class ="nav-sommaire">
                 <h3><li><a class="SommaireP" href ="#P1">Festival</a></li></h3>
+                <h3><li><a class="SommaireP" href ="#P2">Personnel</a></li></h3>
+                <h3><li><a class="SommaireP" href ="#P3">Parking</a></li></h3>
+                <h3><li><a class="SommaireP" href ="#P4">Kwark Education</a></li></h3>
+                <h3><li><a class="SommaireP" href ="#P5">Abeille Assurances</a></li></h3>
                 <!-- <h3><li><a class="SommaireP" href="Projets.html#P2"></a></a></li></h3>
                 <h3><li><a class="SommaireP" href="Projets.html#P1"></a></li></h3> -->
             </ul>
         </div>
     </section>
     <div class="Bouttons">
-        <button><a href="assets/img/Tableau de synthèse.pdf" target="_blank" style=text-decoration:none;  class ="B-right"> Tableau de synthèse</a>
+        <button><a href="assets/img/Annexe 6-1 - Tableau de synthèse - Épreuve E4 - BTS SIO 2022.pdf" target="_blank" style=text-decoration:none;  class ="B-right"> Tableau de synthèse</a>
         </button>
     
-        <button class="B-right"> Description des Compétences
+        <button><a href="assets/img/CompétencesÉpreuve E4 - Idées de preuves_traces.pdf" target="_blank" style=text-decoration:none;  class ="B-right">  Description des Compétences</a>
         </button>
     </div>
     <section class="CommunSection" id="P1">
@@ -77,6 +82,388 @@
             <h2 class="Titreh2">Mon travail</h2>
             <p>Lien vers mon projet Github : <a href="https://github.com/IkiMeii/Festival-MVC.git" target="_blank" class="Tiret">Festival sous la forme MVC</a>
             </p> </p>
+    </section>
+
+     <br><br>
+        <div class="line-wrapper">
+			<div class="line"></div>
+		</div>
+        <br>
+
+    <section class="CommunSection" id="P2">
+        <h2 class ="Titreh2">DEFINITION DU BESOIN <br> --- PERSONNEL ---</h2>
+           <p>Les niveaux d’habilitation des utilisateurs sont les suivants :
+                <ul class="indentation-list" style="text-decoration: none">
+                    <li>Un simple employé de ligue peut ouvrir l’application et s’en servir comme un annuaire, mais il ne dispose d’aucun droit d’écriture.</li>
+                    <li>Un employé par ligue est admininstrateur et dispose de droits d’écriture peut gérer la liste des emloyés de sa propre ligue avec une application bureau.</li>
+                    <li>Le super-admininstrateur a accès en écriture à tous les employés des ligues. Il peut aussi gérer les comptes des administrateurs des ligues avec une application accessible en ligne de commande. </li>
+                    <li>L’application doit être rendue multi-utilisateurs grace à l’utilisation d’une base de données.</li>
+                    <li>Les trois niveaux d’habilitation ci-dessus doivent être mis en place.</li>
+                </ul>
+                </p>
+
+          <h2 class ="Titreh2">LA MISSION POUR CE PROJET</h2>  
+            <p><FONT size="3pt" class="title">
+					<big><b><u>Itération 1 :</u></b> </big>
+                    <ul class="indentation-list" style="text-decoration: none">
+                    <li>Modélisation d’une base de données avec un MCD.</li>
+                    <li>Vérification du fonctionnement correct de l’application grâce à des tests unitaires. </li>
+                    <li>Gestion de la date de départ et de celle d’arrivée de chaque employé (couche métier + tests unitaires). </li>
+                    <li>Représentation des menus du dialogue en ligne de commande avec un arbre heuristique (Utilisez un logiciel de type Freemind). </li>
+                    </ul>
+                </FONT>
+            </p>
+            <p><FONT size="3pt" class="title">
+					<big><b><u>Itération 2 :</u></b> </big>
+                    <ul class="indentation-list" style="text-decoration: none">
+                    <li>Création de la base de données et production du script de réation de tables. </li>
+                    <li>Gestion des dates dans le dialogue en ligne de commande.</li>
+                    <li>Dans le dialogue en ligne de commande, un employé doit être selectionné avant que l’on puisse choisir de modifier ou de supprimer. </li>
+                    <li>Possibilité de changer l’administrateur d’une ligue en ligne de commande. </li>
+                    </ul>
+                </FONT>
+            </p>
+            <p><FONT size="3pt" class="title">
+					<big><b><u>Itération 3 :</u></b> </big>
+                    <ul class="indentation-list" style="text-decoration: none">
+                    <li>Création d’une classe fille de Passerelle permettant de gérer le dialogue avec la base de données avec JDBC (ou avec Hibernate si vous le souhaitez). </li>
+                    <li>Utilisation de la base de données pour réaliser les opérations d’ajout, de modification, de suppression des ligues et des employés. </li>
+                    <li>Modélisation de l’interface graphique avec des maquettes. </li>
+                    </ul>
+                </FONT>
+            </p>
+            <h2 class="Titreh2">Mon travail</h2>
+             <p><b><u>Documentation</u> : </b><ul class="indentation-list" style="text-decoration: none">
+                    <li><a href="assets/img/MCD parking.PNG" target="_blank" title="Maquette" style="text-decoration: none; color: black;"><u>MCD</u></a></li>
+             </p>                               
+            <p>Lien vers mon projet Github : <a href="https://github.com/IkiMeii/IkiMeiipersonnel.git" target="_blank" class="Tiret">Personnel</a>
+            </p>
+    </section>
+
+    <br><br>
+        <div class="line-wrapper">
+			<div class="line"></div>
+		</div>
+        <br>
+
+    <section class="CommunSection" id="P3">
+        <h2 class ="Titreh2">DEFINITION DU BESOIN <br> --- PARKING ---</h2>
+           <p>
+                <ul class="indentation-list" style="text-decoration: none">
+                    <li>Le front-office doit être sécurisé et n’accepter que les demandes du personnel des ligues. Les inscriptions au service de réservation de place doivent être validées (ou créées) par un administrateur. </li>
+                    <li>L’administrateur, seul utilisateur du back-office, doit pouvoir éditer la liste des places et gérer les inscriptions des utilisateurs. </li>
+                    <li>Lorsqu’un utilisateur en fait la demande, une place libre lui est est attribuée aléatoirement et immédiatement par l’application, la réservation expire automatiquement au bout d’une durée par défaut déterminée par l’administrateur.</li>
+                    <li>Si une demande ne peut pas être satisfaite, l’utilisateur est placé en liste d’attente. </li>
+                    <li>L’utilisateur ne peut pas choisir la date à laquelle une place lui est attribué, les réservations sont toujours immédiates. Un utilisateur ne peut pas faire une demande de réservation s’il est en file d’attente ou qu’il occupe une place. </li>
+                    <li>Un utilisateur ou l’administateur peuvent fermer une réservation avant la date d’expiration prévue. Une fois celle-ci expirée, l’utilisateur doit refaire une demande s’il souhaite obtenir une place.</li>
+                </ul>
+                </p>
+
+          <h2 class ="Titreh2">LA MISSION POUR CE PROJET</h2>  
+          <div class="Parking" style="text-align: justify;">
+            <p><FONT size="3pt" class="title">
+					<big>Il serait souhaitable que les fonctionnalités ci-après soient mises en place. Si vous n’avez pas le temps de toutes les traiter, occupez-vous d’abord des plus importantes. S’il reste du temps, cherchez des améliorations à apporter.</big>
+                </FONT></p>
+                <p>
+                <FONT size="3pt" class="title">
+					<big><b><u>Sécurité :</u></b> </big>
+                    <ul class="indentation-list" style="text-decoration: none ; text-align: justify;">
+                    <li>Protection des accès par mot de passe. </li>
+                    <li>Contrôles de saisie des données côté serveur. </li>
+                    <li>Contrôles de saisie côté client. </li>
+                    <li>Protection contre les attaques par injection.</li>
+                    </ul>
+                </FONT>
+            </p >
+            <p><FONT size="3pt" class="title">
+					<big><b><u>Gestion des mots de passe :</u></b> </big>
+                    <ul class="indentation-list" style="text-decoration: none">
+                    <li>Fonction "mot de passe perdu ?". </li>
+                    <li>Hachage des mots de passe. </li>
+                </ul>
+                </FONT>
+            </p>
+            <p><FONT size="3pt" class="title">
+					<big><b><u>Espace utilisateur :</u></b> </big>
+                    <ul class="indentation-list" style="text-decoration: none">
+                    <li>Vérification de l’identité par saisie d’un mot de passe. </li>
+                    <li>Possibilité de visualiser le numéro de place attribuée, ainsi que l’historique des places précédemment attribuées.</li>
+                    <li>Possibilité de faire une demande de réservation. </li>
+                    <li>Possibilité de connaître son rang sur la file d’attente. </li>
+                    <li>Modification du mot de passe. </li>
+                </ul>
+                </FONT>
+            </p>
+            <p><FONT size="3pt" class="title">
+					<big><b><u>Espace administrateur :</u></b> </big>
+                    <ul class="indentation-list" style="text-decoration: none">
+                    <li>Protection de l’accès par mot de passe. </li>
+                    <li>Édition de la liste des utilisateurs, réinitialisation des mots de passe. </li>
+                    <li>Édition de la liste des places </li>
+                    <li>Consultation de la liste d’attente. </li>
+                    <li>Consultation de l’historique d’attribution des places. </li>
+                    <li>Attribution manuelle des places. </li>
+                    <li>Édition de la file d’attente (modification de la position des personnes en attente). </li>
+                </ul>
+                </FONT>
+            </p>
+            <p><FONT size="3pt" class="title">
+					<big><b><u>Pages web :</u></b> </big>
+                    <ul class="indentation-list" style="text-decoration: none">
+                    <li>Mise aux normes HTML5 et CSS des pages WEB. </li>
+                    <li>Utilisation d’un design responsive. </li>
+                </ul>
+                </FONT>
+            </p>
+            <p><FONT size="3pt" class="title">
+					<big><b><u>Documentation:</u></b> </big>
+                    <ul class="indentation-list" style="text-decoration: none">
+                    <li>Liste des tâches à accomplir triées par ordre de priorité. </li>
+                    <li>Le plan du site, dans lequel vous préciserez les URLs. </li>
+                    <li>Documentation utilisateur, accessible depuis l’application.</li>
+                    <li>Documentation permettant de comprendre comment est construite l’application (shémas, impressions d’écran, architecture de l’application, MCD...). </li>
+                </ul>
+                </FONT>
+            </p>
+            <p><FONT size="3pt" class="title">
+					<big><b><u>Accès depuis le réseau local :</u></b> </big>
+                    <ul class="indentation-list" style="text-decoration: none">
+                    <li>Installation de l’application sur un serveur accessible depuis le réseau local. </li>
+                </ul>
+                </FONT>
+            </p>
+        </div>
+            <h2 class="Titreh2">Mon travail</h2>
+            <p><b><u>Documentation</u> : </b><ul class="indentation-list" style="text-decoration: none">
+                    <li><a href="assets/img/Maquette Parking.pdf" target="_blank" title="Maquette" style="text-decoration: none; color: black;"><u>La maquette</u></a></li>
+                    <br>
+                        <li><a href="assets/img/MCD parking.PNG" target="_blank" title="Maquette" style="text-decoration: none; color: black;"><u>MCD</u></a></li></p>
+                    <p>Lien vers mon projet Github : <a href="https://github.com/IkiMeii/IkiMeiipersonnel.git" target="_blank" class="Tiret">Personnel</a></p>
+            
+    </section>
+
+    <br><br>
+        <div class="line-wrapper">
+			<div class="line"></div>
+		</div>
+        <br>
+
+    <section class="CommunSection" id="P4">
+        <h2 class ="Titreh2">MISSION DE STAGE <br> --- 1er année ---</h2>
+					<p><FONT size="3pt" class="title"><big>Vous participerez au processus de digitalisation des formations en intégrant sur les plateformes les contenus à destination des apprenants.</big>
+                </FONT></p>
+                <p>
+                <FONT size="3pt" class="title">
+					<big><b><u>Les missions principales dans ce cadre sont :</u></b> </big>
+                    <p>
+                    <div class="container">
+                        <ul class="indentation-list">
+                            <li>Recettage qualité de vidéos de formation</li>
+                            <li>Saisie et intégration de contenus de formation sur LMS <br>(vidéos, images, quiz, documents PDF…)</li>
+                            <li>Paramétrage et déploiement des parcours de formation</li>
+                            <li>Recettage qualité des intégrations sur les plateformes <br> (desktop et application mobile)</li>
+                        </ul>
+                    </div>
+                    Pour plus d'informations sur le stage : <a href="Stages.html#Stage1" target="_blank" class="Tiret">Suite </a>
+                </p>
+                </FONT>
+            </p >
+        </div>
+            <h2 class="Titreh2">Mon travail</h2>
+            <p>Voici quelques images de ce que j'ai pu effectuer lors de mon stage :
+                <br><br>
+                <span class ="Tiret">Aperçu du dashboard de l'entreprise avec les différentes actions possibles comme par exemple administrer les modules </a> </span> <br>
+            <div align="center"><a name="image"></a>
+            <a href="assets/img/Dashboard Admin.png" target="_blank" onClick="changer()">
+            <img src="assets/img/Dashboard Admin.png" width="500" height="250" border="0" class="img"></a>
+            </div><br>
+            <div align="center"><a name="image"></a>
+            <a href="assets/img/Admin formation.png" target="_blank" onClick="changer()">
+            <img src="assets/img/Admin formation.png" width="500" height="250" border="0" class="img"></a>
+            </div>
+
+            <br><br>
+            <span class ="Tiret">Aperçu du dashboard de l'utilisateur, donc des apprenants qui peuvent par exemple voir leur progression. </a> </span> <br><br>
+            <div align="center"><a name="image"></a>
+            <a href="assets/img/Dashborad Util.png" target="_blank" onClick="changer()">
+            <img src="assets/img/Dashborad Util.png" width="500" height="250" border="0" class="img"></a>
+            </div><br><br>
+
+            <span class ="Tiret">Aperçu de l'intégration, ici, je devais crée des questions à l'aide d'un powerpoint réalisé par un relookeur en fonction des attentes du client, ces questions sont ensuite disponible après chaque vidéo de formation afin de vérifier que l'apprennant a bien saisie le contenu de la vidéo.</a> </span> <br><br>
+            <div align="center"><a name="image"></a>
+            <a href="assets/img/Intégration.png" target="_blank" onClick="changer()">
+            <img src="assets/img/Intégration.png" width="500" height="250" border="0" class="img"></a>
+            </div><br><br>
+
+            <span class ="Tiret">Aperçu des différentes étapes du processus de création, au cours de mon stage, j'ai également pu m'intéresser au relooking, au tournage et au montage et effectuer des recettages clients.<br><br>
+            C pour création, S pour scénarisation,  R pour relooking, T pour Tournage, M pour Montage, H pour Habillage Template, SL pour Habillage Slide, E pour Export, I pour Intégration et R pour Recettage Client.  </a> </span> <br><br>
+            <div align="center"><a name="image"></a>
+            <a href="assets/img/Processus création.png" target="_blank" onClick="changer()">
+            <img src="assets/img/Processus création.png" width="500" height="250" border="0" class="img"></a>
+            </div><br><br>
+
+            <span class ="Tiret">Aperçu de la DropBox, un espace collaboratif dans lequel je récupérais toutes les vidéos pour les analyser, elles devaient respecter le relooking.  </a> </span> <br><br>
+            <div align="center"><a name="image"></a>
+            <a href="assets/img/Dropbox.png" target="_blank" onClick="changer()">
+            <img src="assets/img/Dropbox.png" width="500" height="250" border="0" class="img"></a>
+            </div><br><br>
+             Pour plus d'informations sur le stage : <a href="Stages.html#Stage1" target="_blank" class="Tiret">Suite </a>
+             <br>
+            </p>            
+    </section>
+
+    <br><br>
+        <div class="line-wrapper">
+			<div class="line"></div>
+		</div>
+        <br>
+<section class="CommunSection" id="P5">
+        <h2 class ="Titreh2">MISSION DE STAGE <br> --- 2éme année ---</h2>
+					<p><FONT size="3pt" class="title"><big><p>Développement Web d'une fonctionnalité pour une application de diagnostic d'incidents avec une partie Front en 
+                    Angular et une partie back en Java Spring Boot.</big>
+                </FONT></p>
+               <p><FONT size="3pt" class="title">
+					<big><b><u>Contexte : </u></b></big><br><br>Dans le cadre de la lutte anti-fraude, lorsqu’un email ou un numéro de téléphone mobile est modifié, l’application concernée par cette modification envoie un sms ou un mail sur l’ancien numéro / mail et sur le nouveau numéro / mail.
+                        Cela engendre des appels d’inquiétude de personnes qui ne sont pas à l’origine de la modification, puis de notre service anti-fraude qui nous demande de vérifier.
+                        Ainsi, dans l’application Digital Diag, nous souhaitons ajouter un nouvel onglet, permettant la recherche d’un numéro de téléphone et/ou d’un email dans certaines tables.
+                        A noter que cette interface ne concerne que le périmètre Epargne GT Abeille et Afer.
+                        <br><br><br>
+                    <big>
+                        <b><u>Partie 1 - Interface de recherche : </u></b>
+                    </big>
+                    <br><br>
+                    Ce nouvel onglet sera nommé « Anti-fraude » <br>
+                    Sur cette page de recherche, nous avons besoin dans l’immédiat de 3 zones : 
+                        <ul class="indentation-list">
+                            <li>Numéro de mobile</li>
+                            <li>Email</li>
+                            <li>Numéro de client</li>
+                        </ul>
+                        <div align="center"><a name="image"></a>
+            <a href="assets/img/Abeille/Partie1.PNG" target="_blank" onClick="changer()">
+            <img src="assets/img/Abeille/Partie1.PNG" width="500" height="250" border="0" class="img"></a>
+            </div><br>
+
+                    <big>
+                    <b><u>Partie 2 - Résultat de la recherche :  </u></b>
+                    </big>
+                    <br><br>
+                    Lorsqu’on clique sur le bouton « Lancer la recherche », il faut aller lire dans 3 tables et restituer l’ensemble des champs de ces 3 tables en effectuant un tri décroissant sur une date. 
+                    <br>
+                    Ces tables sont des sas de transit entre les Fronts CRM et le back office Epargne. On les appelle aussi, les tables des « Données Partagées ». Toutes les 15 minutes, un batch est lancé coté front et coté back office pour aller lire les mouvements et mettre à jour les bases de données. 
+                    <br>
+                    Le plus simple et pertinent est de saisir un seul champ. Voici les requêtes à implémenter. 
+                    <br>
+                    Une limite de 100 lignes est arbitrairement fixée pour ne pas remonter trop de données anciennes. 
+                    <br><br>
+                    <b><u>Partie 2.1 - Table front N°1 : CRM.fe_mvtcli  </u></b>
+                    <br><br>
+                    <u>Requête Numéro de client :    </u>
+                        <br><br>
+                        <i> select * from CRM.fe_mvtcli where mvt_cli_id = 10112666 and rownum < 100  
+                        <br>order by mvt_enr_d desc ; </i>
+                    <br><br>
+                    <u>Requête Email :    </u>
+                        <br><br>
+                        <i> select * from CRM.fe_mvtcli where mvt_mvt_c = 'email' and  mvt_val like '%abeille@aviva.com'  and rownum < 100 order by mvt_enr_d desc ; </i>
+                    <br><br>
+                    <u>Requête Numéro de mobile :     </u>
+                        <br><br>
+                        <i> select * from CRM.fe_mvtcli where mvt_mvt_c = 'tel_portable' and mvt_val like '%0607080910%' and rownum < 100  order by mvt_enr_d desc ; </i>
+                    <br><br>
+                        <div align="center"><a name="image"></a>
+            <a href="assets/img/Abeille/Partie2PNG" target="_blank" onClick="changer()">
+            <img src="assets/img/Abeille/Partie2.PNG" width="500" height="250" border="0" class="img"></a>
+            <br><br>
+            <a href="assets/img/Abeille/Partie2.1.PNG" target="_blank" onClick="changer()">
+            <img src="assets/img/Abeille/Partie2.1.PNG" width="500" height="100" border="0" class="img"></a>
+            
+            </div><br><br>
+            <b><u>Partie 2.2 - Table front N°2 : dcce.dcc_mvtclioce </u></b>
+                    <br><br>
+                    <u>Requête Numéro de client :    </u>
+                        <br><br>
+                        <i> select * from dcce.dcc_mvtclioce where mvt_cli_id = 10112666 and rownum < 100 order by  mvt_enr_d desc ;  </i>
+                    <br><br>
+                    <u>Requête Email :    </u>
+                        <br><br>
+                        <i> select * from dcce.dcc_mvtclioce where mvt_mvt_c = 'email' and  mvt_val like '%abeille@aviva.com'  and rownum < 100 order by mvt_enr_d desc ;  </i>
+                    <br><br>
+                    <u>Requête Numéro de mobile :     </u>
+                        <br><br>
+                        <i> select * from dcce.dcc_mvtclioce where mvt_mvt_c = 'tel_portable' and mvt_val like '%0607080910%' and rownum < 100  order by mvt_enr_d desc ;  </i>
+                    <br><br>
+                        <div align="center"><a name="image"></a>
+            <a href="assets/img/Abeille/Partie22.PNG" target="_blank" onClick="changer()">
+            <img src="assets/img/Abeille/Partie22.PNG" width="500" height="250" border="0" class="img"></a>
+            <br><br>
+            <a href="assets/img/Abeille/Partie2.1.PNG" target="_blank" onClick="changer()">
+            <img src="assets/img/Abeille/Partie2.1.PNG" width="500" height="100" border="0" class="img"></a>
+            </div><br>
+             <b><u>Partie 2.3 : Table back office N°1 : dcce.pc_bp_contact  </u></b>
+                    <br><br>
+                    <u>Requête Numéro de client :    </u>
+                        <br><br>
+                        <i> select * from dcce.pc_bp_contact where numero_pers = 10112666 and rownum < 100 order by  numero_mvt desc;   </i>
+                    <br><br>
+                    <u>Requête Email :    </u>
+                        <br><br>
+                        <i>select * from dcce.pc_bp_contact  where nom_zone = 'email' and valeur_zone like '%abeille@aviva.com'  and rownum < 100 order by numero_mvt desc;  </i>
+                    <br><br>
+                    <u>Requête Numéro de mobile :     </u>
+                        <br><br>
+                        <i> select * from dcce.pc_bp_contact where nom_zone = 'tel_portable' and valeur_zone like '%0607080910%' and rownum < 100  order by numero_mvt desc; </i>
+                    <br><br>
+                        <div align="center"><a name="image"></a>
+            <a href="assets/img/Abeille/Partie2.3.PNG" target="_blank" onClick="changer()">
+            <img src="assets/img/Abeille/Partie2.3.PNG" width="500" height="250" border="0" class="img"></a>
+            <br><br>
+            <a href="assets/img/Abeille/Partie2.1.PNG" target="_blank" onClick="changer()">
+            <img src="assets/img/Abeille/Partie2.1.PNG" width="500" height="100" border="0" class="img"></a>
+                <p>
+                    Pour plus d'informations sur le stage : <a href="Stages.html#Stage2" target="_blank" class="Tiret">Suite </a>
+            </p >
+        </div>
+            <h2 class="Titreh2">Mon travail</h2>
+            <p>Voici quelques images de ce que j'ai pu effectuer lors de mon stage :
+                <br><br>
+                <span class ="Tiret"></a> </span> <br>
+            <div align="center"><a name="image"></a>
+            <a href="assets/img/Abeille/P1" target="_blank" onClick="changer()">
+            <img src="assets/img/Abeille/P1.PNG" width="500" height="250" border="0" class="img"></a>
+            </div><br>
+            <div align="center"><a name="image"></a>
+            <a href="assets/img/Abeille/P2.PNG" target="_blank" onClick="changer()">
+            <img src="assets/img/Abeille/P2.PNG" width="500" height="250" border="0" class="img"></a>
+            </div>
+
+            <br><br>
+            <span class ="Tiret"></a> </span> <br><br>
+            <div align="center"><a name="image"></a>
+            <a href="assets/img/Abeille/P3.PNG" target="_blank" onClick="changer()">
+            <img src="assets/img/Abeille/P3.PNG" width="500" height="250" border="0" class="img"></a>
+            </div><br><br>
+
+            <span class ="Tiret"></a> </span> <br><br>
+            <div align="center"><a name="image"></a>
+            <a href="assets/img/Abeille/P4.PNG" target="_blank" onClick="changer()">
+            <img src="assets/img/Abeille/P4.PNG" width="500" height="250" border="0" class="img"></a>
+            </div><br><br>
+
+            <span class ="Tiret"></a> </span> <br><br>
+            <div align="center"><a name="image"></a>
+            <a href="assets/img/Abeille/P5.PNG" target="_blank" onClick="changer()">
+            <img src="assets/img/Abeille/P5.PNG" width="500" height="250" border="0" class="img"></a>
+            </div><br><br>
+
+            <span class ="Tiret"> </a> </span> <br><br>
+            <div align="center"><a name="image"></a>
+            <a href="assets/img/Abeille/P6.PNG" target="_blank" onClick="changer()">
+            <img src="assets/img/Abeille/P6.PNG" width="500" height="250" border="0" class="img"></a>
+            </div><br><br>
+             Pour plus d'informations sur le stage : <a href="Stages.html#Stage2" target="_blank" class="Tiret">Suite </a>
+             <br>
+            </p>            
     </section>
 
     <section class="EndSection"></section>
