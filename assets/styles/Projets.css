@@ -8,12 +8,17 @@ html {
 /**************** MENU ****************/
 .menu {
   background: White;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
   width: 100%;
   height: 66px;
   line-height: 66px;
   margin: 0;
   padding: 0;
   border-bottom: 1px solid rgb(168, 164, 164);
+  z-index: 1000000;
 }
 
 .m-left {
@@ -105,11 +110,11 @@ span.m-toggle-icon:after {
 
 @media only screen and (max-width: 1000px) {
   .m-right {
-    position: absolute;
+    position: fixed;
     top: 66px;
     right: 0;
     width: 200px;
-    height: 39%;
+    height: 40%;
     border-left: 1px solid rgb(168, 164, 164);
     border-bottom: 1px solid rgb(168, 164, 164);
     background: white;
@@ -138,7 +143,7 @@ span.m-toggle-icon:after {
 
 body {
   background-color: rgba(0, 0, 0, 0.226);
-  margin: 0;
+  margin-top: 100px;
   padding: 0;
   overflow-x: hidden;
 }
@@ -311,6 +316,13 @@ p {
   }
 }
 
+@media only screen and (max-width: 640px) {
+  img {
+    height: auto;
+    width: 200px;
+  }
+}
+
 /**************** SECTION PARCOURS ****************/
 
 div.container {
@@ -333,9 +345,9 @@ ul.indentation-list {
   text-align: justify;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 640px) {
   .ImgStage {
-    height: 110px;
+    height: auto;
     width: 310px;
   }
 }
@@ -423,54 +435,33 @@ ul.indentation-list {
   height: 100px;
 }
 
-.image {
-  width: 700px;
-  height: 400px;
-}
-
-.img {
-  width: 700px;
-  height: 350px;
-}
-
-.img2 {
-  width: 700px;
-  height: 200px;
-}
-
-.img3 {
-  width: 700px;
-  height: 250px;
-}
-
+.image,
+.img2,
+.img,
+.img3,
 .img4 {
   width: 700px;
-  height: 600px;
+  height: auto;
 }
 
 @media only screen and (max-width: 600px) {
-  .img2 {
-    width: 300px;
-    height: 100px;
-  }
-
-  .image {
-    width: 300px;
-    height: 200px;
-  }
-
-  .img {
-    width: 300px;
-    height: 150px;
-  }
-
-  .img3 {
-    width: 300px;
-    height: 150px;
-  }
-
+  .image,
+  .img2,
+  .img,
+  .img3,
   .img4 {
     width: 300px;
-    height: 200px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .image,
+  .img2,
+  .img,
+  .img3,
+  .img4 {
+    width: 200px;
+    height: auto;
   }
 }
