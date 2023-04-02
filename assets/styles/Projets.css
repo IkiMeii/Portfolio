@@ -576,3 +576,57 @@ ul.indentation-list {
     height: auto;
   }
 }
+
+/* CSS pour le bouton */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.back-to-top:hover {
+  background-color: #666;
+}
+
+/* .back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 24px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.back-to-top:hover {
+  background-color: #666;
+} */
+
+/* CSS pour l'icône */
+/* .back-to-top i {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+} */
+
+/* .back-to-top i {
+  font-family: "Font Awesome 5 Free";
+  content: "\f062";
+}
+ */
