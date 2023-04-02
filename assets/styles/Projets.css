@@ -541,12 +541,25 @@ ul.indentation-list {
   height: auto;
 }
 
+.imgGA {
+  width: auto;
+  height: auto;
+}
+
+@media only screen and (max-width: 1000px) {
+  .imgGA {
+    width: 500px;
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .image,
   .img2,
   .img,
   .img3,
-  .img4 {
+  .img4,
+  .imgGA {
     width: 300px;
     height: auto;
   }
@@ -557,7 +570,8 @@ ul.indentation-list {
   .img2,
   .img,
   .img3,
-  .img4 {
+  .img4,
+  .imgGA {
     width: 200px;
     height: auto;
   }
