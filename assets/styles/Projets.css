@@ -145,7 +145,7 @@ span.m-toggle-icon:after {
     top: 66px;
     right: 0;
     width: 200px;
-    height: 50%;
+    height: 60%;
     border-left: 1px solid rgb(168, 164, 164);
     border-bottom: 1px solid rgb(168, 164, 164);
     background: white;
@@ -231,7 +231,7 @@ button:hover {
   margin-left: 3em;
   margin-right: 3em;
   margin-bottom: 0;
-  padding: 8px 12px;
+  padding: 8px 20px;
   background: white;
   color: black;
 }
@@ -289,6 +289,18 @@ p {
     margin-right: 1em;
     padding: 8px 12px;
     background: rgba(233, 221, 221, 0.993);
+  }
+
+  .CommunSection {
+    text-align: center;
+    border: 1px solid rgb(168, 164, 164);
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 0;
+    padding: 8px 12px;
+    background: white;
+    color: black;
   }
 
   button {
@@ -368,7 +380,7 @@ p {
   .Titre {
     text-align: center;
     font-family: "Lato";
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 900;
     border: 1px solid rgb(168, 164, 164);
     margin-top: 1em;
@@ -376,6 +388,18 @@ p {
     margin-right: 2em;
     padding: 8px 12px;
     background: rgba(233, 221, 221, 0.993);
+  }
+
+  .Cadre {
+    text-align: center;
+    border: 1px solid rgb(168, 164, 164);
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 0;
+    padding: 8px 12px;
+    background: white;
+    color: black;
   }
 }
 
