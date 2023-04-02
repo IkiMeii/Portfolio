@@ -261,6 +261,34 @@ p {
     padding: 8px 12px;
     background: rgba(233, 221, 221, 0.993);
   }
+}
+
+@media only screen and (max-width: 640px) {
+  .Titreh2 {
+    text-align: center;
+    font-size: 15px;
+    font-family: "Lato";
+    border: 1px solid rgb(168, 164, 164);
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 8px 12px;
+    background: rgba(233, 221, 221, 0.993);
+  }
+
+  button {
+    background-color: #444141;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #444141;
+    cursor: pointer;
+    margin: 20px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+  }
 
   p {
     margin-left: 20px;
@@ -297,7 +325,7 @@ p {
   color: black;
 }
 
-.Quésaco {
+/* .Quésaco {
   text-align: center;
   border: 1px solid rgb(168, 164, 164);
   margin-top: 1em;
@@ -307,7 +335,7 @@ p {
   padding: 8px 12px;
   background: white;
   color: black;
-}
+} */
 
 @media only screen and (max-width: 800px) {
   img {
@@ -320,6 +348,19 @@ p {
   img {
     height: auto;
     width: 200px;
+  }
+
+  .Titre {
+    text-align: center;
+    font-family: "Lato";
+    font-size: 18px;
+    font-weight: 900;
+    border: 1px solid rgb(168, 164, 164);
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding: 8px 12px;
+    background: rgba(233, 221, 221, 0.993);
   }
 }
 
@@ -348,7 +389,7 @@ ul.indentation-list {
 @media only screen and (max-width: 640px) {
   .ImgStage {
     height: auto;
-    width: 310px;
+    width: 200px;
   }
 }
 
@@ -390,12 +431,14 @@ ul.indentation-list {
   filter: brightness(20%);
 }
 
-.project:hover .projects-infos {
+.project:hover .projects-infos,
+.project:hover .projects-infos1 {
   opacity: 1;
   transform: translate(0, -50%);
 }
 
-.projects-infos {
+.projects-infos,
+.projects-infos1 {
   position: absolute;
   top: 50%;
   transform: translate(-50px, -50%);
@@ -404,16 +447,31 @@ ul.indentation-list {
   opacity: 0;
 }
 
-.projects-infos a {
-  font-size: calc(1rem + 3vw);
+.projects-infos a,
+.projects-infos1 a {
+  font-size: calc(1rem + 2vw);
 }
 
-.projects-infos p {
+.projects-infos p,
+.projects-infos1 p {
   font-size: 2rem;
   margin-top: 1.5vw;
   color: #fefeff;
 }
 
+@media only screen and (max-width: 600px) {
+  .projects-infos1 a {
+    font-size: calc(1rem + 1vw);
+  }
+
+  .projects-infos1 p {
+    font-size: 1rem;
+    margin-top: 2vw;
+    color: #fefeff;
+  }
+}
+
+/*****ICON*****/
 .row {
   display: flex;
   width: 100%;
